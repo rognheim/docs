@@ -1,5 +1,5 @@
 ---
-title: Hypervisors
+title: Platform
 last_reviewed: 2026-04-16
 owner: Rognheim
 ---
@@ -7,7 +7,7 @@ owner: Rognheim
 # :material-vector-intersection:
 
 
-## **Hypervisors**
+## **Platform**
 
 ---
 

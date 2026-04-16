@@ -7,7 +7,7 @@ owner: Rognheim
 # :material-information-box:
 
 
-## **Rognheim Server Documentation**
+## **Home**
 
 This site is a mixed notebook with a clear operational center: server infrastructure, networking, security, storage, automation, and application runbooks for a Proxmox and Debian based platform.
 

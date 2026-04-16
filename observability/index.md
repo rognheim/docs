@@ -1,5 +1,5 @@
 ---
-title: Observability
+title: Operations
 last_reviewed: 2026-04-16
 owner: Rognheim
 ---
@@ -7,7 +7,7 @@ owner: Rognheim
 # :material-chart-line:
 
 
-## **Observability**
+## **Operations**
 
 ---
 

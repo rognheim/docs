@@ -1,5 +1,6 @@
 ---
-title: Changeloglast_reviewed: 2026-04-16
+title: Changelog
+last_reviewed: 2026-04-16
 owner: Rognheim
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Prowlarrlast_reviewed: 2026-04-16
+title: Prowlarr
+last_reviewed: 2026-04-16
 owner: Rognheim
 ---
 

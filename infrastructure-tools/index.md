@@ -1,5 +1,5 @@
 ---
-title: Infrastructure tools
+title: Infrastructure Tools
 last_reviewed: 2026-04-16
 owner: Rognheim
 ---
@@ -7,7 +7,7 @@ owner: Rognheim
 # :material-toolbox:
 
 
-## **Infrastructure tools**
+## **Infrastructure Tools**
 
 ---
 

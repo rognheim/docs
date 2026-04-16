@@ -27,19 +27,17 @@ nav = [
     {"Contact Information" = "meta/contact-info.md"}
   ]},
   {"Platform" = [
+      "platform/index.md",
     {"Hypervisors" = [
-      "hypervisors/index.md",
       {"Proxmox" = "hypervisors/proxmox.md"}
     ]},
     {"Storage & Backup" = [
-      "file-systems/index.md",
-      {"ZFS Overview" = "file-systems/zfs-overview.md"},
-      {"ZFS Settings" = "file-systems/zfs-settings.md"},
-      {"Proxmox Backup Server" = "operating-systems/proxmox-backup-server.md"},
-      {"TrueNAS" = "operating-systems/truenas.md"}
+      {"ZFS Overview" = "storage-and-backup/zfs-overview.md"},
+      {"ZFS Settings" = "storage-and-backup/zfs-settings.md"},
+      {"Proxmox Backup Server" = "storage-and-backup/proxmox-backup-server.md"},
+      {"TrueNAS" = "storage-and-backup/truenas.md"}
     ]},
     {"Operating Systems" = [
-      "operating-systems/index.md",
       {"Debian" = "operating-systems/debian.md"},
       {"Home Assistant OS" = "operating-systems/home-assistant.md"},
       {"Raspberry Pi OS" = "operating-systems/rpi.md"},
@@ -49,7 +47,7 @@ nav = [
       {"Bazzite" = "operating-systems/bazzite.md"}
     ]}
   ]},
-  {"Toolchain" = [
+  {"Infrastructure Tools" = [
     "infrastructure-tools/index.md",
     {"Access & Source Control" = [
       {"Git" = "infrastructure-tools/git.md"},
@@ -72,8 +70,8 @@ nav = [
     ]}
   ]},
   {"Edge & Security" = [
-    {"Networking & Edge" = [
       "networking/index.md",
+    {"Networking & Edge" = [
       {"DNS" = "networking/dns.md"},
       {"VLAN" = "networking/vlan.md"},
       {"Firewall" = "networking/firewall.md"},
@@ -87,7 +85,6 @@ nav = [
       {"Network UPS Tools" = "networking/network-ups-tools.md"}
     ]},
     {"Security Standards" = [
-      "security/index.md",
       {"Linux Hardening" = "security/linux-hardening.md"},
       {"Secrets Management" = "security/secrets-management.md"},
       {"Encryption" = "security/encryption.md"},
@@ -96,15 +93,14 @@ nav = [
     ]}
   ]},
   {"Operations" = [
+    "observability/index.md",
     {"Observability" = [
-      "observability/index.md",
       {"Prometheus" = "observability/prometheus.md"},
       {"Alertmanager" = "observability/alertmanager.md"},
       {"Loki" = "observability/loki.md"},
       {"Grafana" = "observability/grafana.md"}
     ]},
     {"Runbooks & Playbooks" = [
-      "guides/index.md",
       {"Provisioning & Deployment" = [
         {"Provision a New Production VM" = "guides/terraform-cloud-init-ansible.md"},
         {"Expose and Secure a Public-Facing Containerized Application" = "guides/traefik-authelia-crowdsec.md"},
@@ -150,16 +146,16 @@ nav = [
     ]}
   ]},
   {"Reference" = [
-    "programming/index.md",
+    "reference/index.md",
     {"Concepts & Documentation" = [
-      {"Terminology" = "programming/terminology.md"},
-      {"Markdown" = "programming/markdown.md"}
+      {"Terminology" = "reference/terminology.md"},
+      {"Markdown" = "reference/markdown.md"}
     ]},
     {"Shells & Scripting" = [
-      {"Bash" = "programming/bash.md"},
-      {"Python" = "programming/python.md"},
-      {"CMD" = "programming/cmd.md"},
-      {"PowerShell" = "programming/powershell.md"}
+      {"Bash" = "reference/bash.md"},
+      {"Python" = "reference/python.md"},
+      {"CMD" = "reference/cmd.md"},
+      {"PowerShell" = "reference/powershell.md"}
     ]}
   ]}
 ]

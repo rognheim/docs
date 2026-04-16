@@ -1,5 +1,5 @@
 ---
-title: Networking
+title: Edge & Security
 last_reviewed: 2026-04-16
 owner: Rognheim
 ---
@@ -7,7 +7,7 @@ owner: Rognheim
 # :material-network:
 
 
-## **Networking & Edge**
+## **Edge & Security**
 
 ---
 
