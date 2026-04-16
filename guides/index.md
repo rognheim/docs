@@ -1,6 +1,5 @@
 ---
 title: Guides
-status: working
 last_reviewed: 2026-04-16
 owner: Rognheim
 ---
@@ -38,8 +37,12 @@ This section contains end-to-end, task-oriented playbooks that connect multiple 
 - [Provision a New Production VM](terraform-cloud-init-ansible.md)
 - [Expose and Secure a Public-Facing Containerized Application](traefik-authelia-crowdsec.md)
 - [Add Monitoring to a Containerized Application](container-application-monitoring.md)
-- [How to set up a Plex Client](plex-user-configuration-guide.md)
-- [How to set up a NFS share](network-shares-nfs-smb-guide.md)
+- [Service Onboarding Checklist](service-onboarding-checklist.md)
+- [Production Readiness Review](production-readiness-review.md)
+- [Disaster Recovery Drill](disaster-recovery-drill.md)
+- [Secret Rotation Playbook](secret-rotation-playbook.md)
+- [Set Up a Plex Client](plex-user-configuration-guide.md)
+- [Set Up an NFS Share](network-shares-nfs-smb-guide.md)
 
 ---
 

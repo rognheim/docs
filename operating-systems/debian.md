@@ -1,6 +1,5 @@
 ---
 title: Debian
-status: working
 last_reviewed: 2026-03-13
 owner: Rognheim
 ---

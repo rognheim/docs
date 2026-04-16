@@ -1,0 +1,223 @@
+[project]
+site_name = "Rognheim Server Documentation"
+site_url = "https://docs.rognheim.no/"
+site_author = "Rognheim AS"
+site_description = "Runbooks, reference notes, and operating documentation for the Rognheim server platform."
+docs_dir = "docs"
+site_dir = "site"
+repo_name = "rognheim/docs"
+repo_url = "https://github.com/rognheim/docs"
+# edit_uri = "edit/main/docs/"
+
+# Copyright
+# copyright = "Copyright &copy; 2026 Rognheim AS"
+
+# Additional configuration
+extra_javascript = ["https://cse.google.com/cse.js?cx=b4e1b44ed342a4a6b"]
+extra_css = [
+  "stylesheets/extra.css"
+]
+
+# Page tree
+nav = [
+  {"Home" = [
+    "index.md",
+    {"About This Site" = "meta/about-this-site.md"},
+    {"Changelog" = "meta/changelog.md"},
+    {"Contact Information" = "meta/contact-info.md"}
+  ]},
+  {"Platform" = [
+    {"Hypervisors" = [
+      "hypervisors/index.md",
+      {"Proxmox" = "hypervisors/proxmox.md"}
+    ]},
+    {"Storage & Backup" = [
+      "file-systems/index.md",
+      {"ZFS Overview" = "file-systems/zfs-overview.md"},
+      {"ZFS Settings" = "file-systems/zfs-settings.md"},
+      {"Proxmox Backup Server" = "operating-systems/proxmox-backup-server.md"},
+      {"TrueNAS" = "operating-systems/truenas.md"}
+    ]},
+    {"Operating Systems" = [
+      "operating-systems/index.md",
+      {"Debian" = "operating-systems/debian.md"},
+      {"Home Assistant OS" = "operating-systems/home-assistant.md"},
+      {"Raspberry Pi OS" = "operating-systems/rpi.md"},
+      {"Ubuntu Server" = "operating-systems/ubuntu-server.md"},
+      {"Windows" = "operating-systems/windows.md"},
+      {"macOS" = "operating-systems/macos.md"},
+      {"Bazzite" = "operating-systems/bazzite.md"}
+    ]}
+  ]},
+  {"Toolchain" = [
+    "infrastructure-tools/index.md",
+    {"Access & Source Control" = [
+      {"Git" = "infrastructure-tools/git.md"},
+      {"SSH" = "infrastructure-tools/ssh.md"}
+    ]},
+    {"Provisioning & Configuration" = [
+      {"Cloud-Init" = "infrastructure-tools/cloud-init.md"},
+      {"Packer" = "infrastructure-tools/packer.md"},
+      {"Terraform" = "infrastructure-tools/terraform.md"},
+      {"Ansible" = "infrastructure-tools/ansible.md"}
+    ]},
+    {"Containers & Orchestration" = [
+      {"Docker" = "infrastructure-tools/docker.md"},
+      {"Kubernetes" = "infrastructure-tools/kubernetes.md"}
+    ]},
+    {"Delivery & GitOps" = [
+      {"CI/CD Overview" = "infrastructure-tools/ci-cd-overview.md"},
+      {"Gitea Actions" = "infrastructure-tools/gitea-actions.md"},
+      {"GitOps Workflow" = "infrastructure-tools/gitops-workflow.md"}
+    ]}
+  ]},
+  {"Edge & Security" = [
+    {"Networking & Edge" = [
+      "networking/index.md",
+      {"DNS" = "networking/dns.md"},
+      {"VLAN" = "networking/vlan.md"},
+      {"Firewall" = "networking/firewall.md"},
+      {"Cloudflare" = "networking/cloudflare.md"},
+      {"Traefik" = "networking/traefik.md"},
+      {"Authelia" = "networking/authelia.md"},
+      {"CrowdSec" = "networking/crowdsec.md"},
+      {"Tailscale" = "networking/tailscale.md"},
+      {"WireGuard" = "networking/wireguard.md"},
+      {"UniFi OS Server" = "networking/unifi-os-server.md"},
+      {"Network UPS Tools" = "networking/network-ups-tools.md"}
+    ]},
+    {"Security Standards" = [
+      "security/index.md",
+      {"Linux Hardening" = "security/linux-hardening.md"},
+      {"Secrets Management" = "security/secrets-management.md"},
+      {"Encryption" = "security/encryption.md"},
+      {"Hashing" = "security/hashing.md"},
+      {"Malware" = "security/malware.md"}
+    ]}
+  ]},
+  {"Operations" = [
+    {"Observability" = [
+      "observability/index.md",
+      {"Prometheus" = "observability/prometheus.md"},
+      {"Alertmanager" = "observability/alertmanager.md"},
+      {"Loki" = "observability/loki.md"},
+      {"Grafana" = "observability/grafana.md"}
+    ]},
+    {"Runbooks & Playbooks" = [
+      "guides/index.md",
+      {"Provisioning & Deployment" = [
+        {"Provision a New Production VM" = "guides/terraform-cloud-init-ansible.md"},
+        {"Expose and Secure a Public-Facing Containerized Application" = "guides/traefik-authelia-crowdsec.md"},
+        {"Add Monitoring to a Containerized Application" = "guides/container-application-monitoring.md"}
+      ]},
+      {"Operations & Recovery" = [
+        {"Service Onboarding Checklist" = "guides/service-onboarding-checklist.md"},
+        {"Production Readiness Review" = "guides/production-readiness-review.md"},
+        {"Disaster Recovery Drill" = "guides/disaster-recovery-drill.md"},
+        {"Secret Rotation Playbook" = "guides/secret-rotation-playbook.md"}
+      ]},
+      {"User & Storage Tasks" = [
+        {"Set Up a Plex Client" = "guides/plex-user-configuration-guide.md"},
+        {"Set Up an NFS Share" = "guides/network-shares-nfs-smb-guide.md"}
+      ]}
+    ]}
+  ]},
+  {"Applications" = [
+    "applications/index.md",
+    {"Management & Utilities" = [
+      {"Portainer" = "applications/portainer.md"},
+      {"VS Code Server" = "applications/vscode.md"},
+      {"MkDocs Material" = "applications/mkdocs-material.md"},
+      {"Watchtower" = "applications/watchtower.md"},
+      {"Diun" = "applications/diun.md"}
+    ]},
+    {"Media Automation" = [
+      {"Plex Media Server" = "applications/plex.md"},
+      {"Seerr" = "applications/seerr.md"},
+      {"Tautulli" = "applications/tautulli.md"},
+      {"qBittorrent" = "applications/qbittorrent.md"},
+      {"Prowlarr" = "applications/prowlarr.md"},
+      {"Radarr" = "applications/radarr.md"},
+      {"Sonarr" = "applications/sonarr.md"},
+      {"Lidarr" = "applications/lidarr.md"},
+      {"Bazarr" = "applications/bazarr.md"},
+      {"Recyclarr" = "applications/recyclarr.md"}
+    ]},
+    {"Collaboration & Sync" = [
+      {"Matrix Server" = "applications/matrix.md"},
+      {"Syncthing" = "applications/syncthing.md"},
+      {"File Browser" = "applications/filebrowser.md"}
+    ]}
+  ]},
+  {"Reference" = [
+    "programming/index.md",
+    {"Concepts & Documentation" = [
+      {"Terminology" = "programming/terminology.md"},
+      {"Markdown" = "programming/markdown.md"}
+    ]},
+    {"Shells & Scripting" = [
+      {"Bash" = "programming/bash.md"},
+      {"Python" = "programming/python.md"},
+      {"CMD" = "programming/cmd.md"},
+      {"PowerShell" = "programming/powershell.md"}
+    ]}
+  ]}
+]
+
+[project.theme]
+variant = "modern"
+# custom_dir = "/overrides" # BUG Has not gotten to work!
+# favicon = "https://em-content.zobj.net/thumbs/120/microsoft/319/blue-book_1f4d8.png" # assets/favicon.png
+# [project.theme.icon]
+# logo = "logo"
+features = [
+  # "announce.dismiss",
+  "content.action.edit",
+  "content.action.view",
+  "content.code.annotate",
+  "content.code.copy",
+  "content.code.select",
+  # "content.footnote.tooltips",
+  "content.tabs.link",
+  "content.tooltips",
+  "header.autohide",
+  "navigation.expand",
+  # "navigation.footer",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.instant.progress",
+  # "navigation.prune",
+  "navigation.sections", # Makes tabs permanent or allows for drop-down menus!
+  "navigation.tabs",
+  # "navigation.tabs.sticky",
+  "navigation.top", # Toggle back to top icon
+  "navigation.tracking",
+  "search.highlight",
+  "search.share",
+  "search.suggest",
+  "toc.follow"
+  # "toc.integrate" # Integrate table of contents in the sidebar
+]
+palette = [
+  { media = "(prefers-color-scheme)", toggle = { icon = "material/link", name = "Switch to light mode" } },
+  { media = "(prefers-color-scheme: light)", scheme = "default", primary = "indigo", accent = "indigo", toggle = { icon = "material/toggle-switch", name = "Switch to dark mode" } },
+  { media = "(prefers-color-scheme: dark)", scheme = "slate", primary = "black", accent = "indigo", toggle = { icon = "material/toggle-switch-off", name = "Switch to system preference" } }
+]
+
+[project.theme.font]
+text = "Roboto"
+code = "Roboto Mono"
+
+[project.extra]
+generator = false # Hides footer with "Made with Zensical"
+
+[project.extra.status]
+new = "Recently added"
+deprecated = "Deprecated"
+draft = "Draft"
+working = "Working"
+production = "Production-ready"
+
+[project.theme.icon]
+repo = "fontawesome/brands/git-alt"

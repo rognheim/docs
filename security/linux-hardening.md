@@ -1,6 +1,5 @@
 ---
 title: Linux Hardening
-status: draft
 last_reviewed: 2026-03-08
 owner: Rognheim
 ---

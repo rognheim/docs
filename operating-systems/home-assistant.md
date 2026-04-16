@@ -1,6 +1,5 @@
 ---
 title: Home Assistant OS
-status: working
 last_reviewed: 2026-04-16
 owner: Rognheim
 ---

@@ -1,6 +1,5 @@
 ---
 title: VS Code Server
-status: working
 last_reviewed: 2026-04-16
 owner: Rognheim
 ---

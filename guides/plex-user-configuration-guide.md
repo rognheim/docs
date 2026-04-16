@@ -1,6 +1,5 @@
 ---
 title: How to set up Plex in your parents house in a way that makes them happy
-status: working
 last_reviewed: 2026-03-07
 owner: Rognheim
 ---

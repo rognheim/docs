@@ -1,7 +1,5 @@
 ---
-title: Seerr
-status: working
-last_reviewed: 2026-04-16
+title: Seerrlast_reviewed: 2026-04-16
 owner: Rognheim
 ---
 

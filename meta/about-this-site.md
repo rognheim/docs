@@ -1,6 +1,5 @@
 ---
 title: About This Site
-status: working
 last_reviewed: 2026-04-16
 owner: Rognheim
 ---
@@ -22,18 +21,6 @@ The site intentionally mixes two things:
 - A smaller set of personal reference pages, experiments, and supporting notes that are useful to keep in the repository but are not central to day-to-day platform work
 
 The navigation now prioritizes the first category. Peripheral content can still exist in the repo without competing for first-click attention.
-
----
-
-### **Maturity model**
-
-Pages use these status values in front matter:
-
-- `draft`: active notes, planned content, or material that still needs verification
-- `working`: repeatable in this environment with known gaps or rough edges
-- `production`: trusted for recurring operations with a stable baseline
-
-The status is there to communicate confidence, not polish.
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Networking
-status: working
 last_reviewed: 2026-04-16
 owner: Rognheim
 ---
@@ -8,7 +7,7 @@ owner: Rognheim
 # :material-network:
 
 
-## **Networking**
+## **Networking & Edge**
 
 ---
 

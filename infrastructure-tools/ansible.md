@@ -1,6 +1,5 @@
 ---
 title: Ansible
-status: working
 last_reviewed: 2026-03-09
 owner: Rognheim
 ---
